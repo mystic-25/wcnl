@@ -1,0 +1,89 @@
+<!-- ====================================== -->
+<!-- 1) INLINE CSS -->
+<!-- ====================================== -->
+<!DOCTYPE html>
+<html>
+<body>
+  <h1 style="color: blue; text-align: center;">Welcome to Inline CSS</h1>
+  <p style="color: red; font-size: 18px;">This is styled using Inline CSS.</p>
+</body>
+</html>
+
+<!-- ====================================== -->
+<!-- 2) INTERNAL CSS -->
+<!-- ====================================== -->
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    h1 {
+      color: green;
+      text-align: center;
+    }
+    p {
+      font-style: italic;
+      color: darkred;
+    }
+  </style>
+</head>
+<body>
+  <h1>Welcome to Internal CSS</h1>
+  <p>This is styled using Internal CSS.</p>
+</body>
+</html>
+
+<!-- ====================================== -->
+<!-- 3) EXTERNAL CSS : create a file named style.css and index.html in one folder: -->
+<!-- ====================================== -->
+<!-- File: style.css -->
+<!-- 
+h1 {
+  color: purple;
+  text-align: center;
+}
+p {
+  color: navy;
+  font-weight: bold;
+}
+-->
+
+<!-- File: index.html -->
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Welcome to External CSS</h1>
+  <p>This is styled using External CSS.</p>
+</body>
+</html>
+
+<!-- ====================================== -->
+<!-- 4) CSS SELECTORS, PSEUDO CLASS, AND PSEUDO ELEMENTS -->
+<!-- ====================================== -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>HTML-Only Selector Example</title>
+</head>
+<body>
+  <h1 style="text-align: right;">Welcome to CSS Selectors Example ⁂</h1>
+  <h2>Using Various CSS Selectors</h2>
+  <p><i>This paragraph is the first child and has italic text.</i></p>
+  <p style="background-color: yellow;">
+    <b>This paragraph has a yellow background and bold text (highlighted).</b>
+  </p>
+  <p>This is a normal paragraph. <b>The last paragraph will be bold.</b></p>
+  <ul>
+    <li>Item 1</li>
+    <li>Item 2</li>
+    <li style="color: green;">Item 3 (this will be green)</li>
+    <li>Item 4</li>
+  </ul>
+
+  <p>Visit <a href="#">Example Site</a> for more info!</p>
+  <p>Or check out <a href="https://www.google.com">Google</a> for search.</p>
+</body>
+</html>

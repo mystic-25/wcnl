@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formula 1</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(90deg, #0f1724 0%, #1b2b43 100%);
+            color: #f7f7f7;
+            padding: 24px;
+        }
+        header { text-align: center; margin-bottom: 18px; }
+        h1 { font-family: Verdana, sans-serif; font-size: 2.2rem; color: #fff; }
+        section { background: rgba(255,255,255,0.04); padding: 18px; border-radius: 10px; margin-bottom: 20px; }
+        p { color: #e6eef8; line-height: 1.7; margin-top: 12px; }
+        audio, video, iframe { display: block; margin: 18px auto; border-radius: 8px; box-shadow: 0 6px 18px rgba(0,0,0,0.5); max-width: 100%; }
+        ol, ul { margin-left: 36px; margin-top: 12px; }
+        table { width: 100%; border-collapse: collapse; margin-top: 12px; background: rgba(0,0,0,0.25); border-radius: 8px; overflow: hidden; }
+        th, td { padding: 12px 10px; text-align: center; }
+        th { background: rgba(255,255,255,0.06); font-weight: 600; }
+        tr:nth-child(even) { background: rgba(255,255,255,0.02); }
+        tr:hover { background: rgba(255,255,255,0.04); }
+
+        .gallery { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 16px; margin-top: 12px; }
+        .card { background: rgba(0,0,0,0.3); padding: 12px; border-radius: 8px; text-align: center; }
+        .card img { width: 100%; height: 160px; object-fit: cover; border-radius: 6px; }
+        .caption { margin-top: 8px; font-weight: 600; color: #fff; }
+        .small { font-size: 0.9rem; color: #dbeafe; }
+
+        @media (max-width: 600px) {
+            h1 { font-size: 1.6rem; }
+            .card img { height: 140px; }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Formula 1 (F1)</h1>
+    <p class="small"></p>
+</header>
+
+<section>
+    <p><strong>Definition:</strong> Formula 1 (F1) is the highest class of international single-seater auto
+    racing sanctioned by the Fédération Internationale de l'Automobile (FIA). It blends state-of-the-art
+    engineering with incredible driving skill.</p>
+</section>
+
+<section>
+    <p>F1 racing features teams and drivers competing in Grands Prix worldwide. Cars use hybrid power
+    units and advanced aerodynamics — every millimeter and watt matters on track.</p>
+</section>
+
+<section>
+    <h2>F1 Engine Sound (Voice Clip)</h2>
+    <audio controls>
+        <source src="f1-engine-sound.mp3" type="audio/mp3">
+        Your browser does not support the audio element.
+    </audio>
+</section>
+
+<section>
+    <h2>F1 Highlights (Video Clip)</h2>
+    <iframe width="300" height="170"
+        src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/"
+        title="F1 Highlights" frameborder="0" allowfullscreen>
+    </iframe>
+</section>
+
+<section>
+    <h2>Featured Cars & Driver</h2>
+    <p class="small">Images updated as per your provided links.</p>
+
+    <div class="gallery">
+        <div class="card">
+            <img src="https://d2xpg1khvwxlf1.cloudfront.net/production/images/original/37360-72_DPI_WEB-F1-Belgium-2020-7d586579fc70159ea01734e2924a2bdb.jpg" alt="Mercedes F1 car">
+            <div class="caption">Mercedes-AMG F1 W14</div>
+            <div class="small">Team: Mercedes — Country: Germany</div>
+        </div>
+        <div class="card">
+            <img src="https://cdn-media.theathletic.com/cdn-cgi/image/width=1200,height=675,fit=cover/MUWshkpJKHHk_JdtlcjJvZqYX_1440x994.jpg" alt="Lewis Hamilton and Toto Wolff">
+            <div class="caption">Lewis Hamilton & Toto Wolff</div>
+            <div class="small">Mercedes Team Principal & Star Driver</div>
+        </div>
+        <div class="card">
+            <img src="https://e0.365dm.com/25/03/1600x900/skysports-f1-drivers-2025-class-of_6859955.jpg?20250317193319" alt="F1 Drivers">
+            <div class="caption">2025 F1 Drivers</div>
+            <div class="small">Full grid for the season</div>
+        </div>
+    </div>
+</section>
+
+<section>
+    <h2>Top F1 Drivers (Ordered List)</h2>
+    <ol>
+        <li>Michael Schumacher</li>
+        <li>Lewis Hamilton</li>
+        <li>Sebastian Vettel</li>
+        <li>Ayrton Senna</li>
+        <li>Fernando Alonso</li>
+    </ol>
+</section>
+
+<section>
+    <h2>F1 Car Components (Unordered List)</h2>
+    <ul>
+        <li>Engine</li>
+        <li>Chassis</li>
+        <li>Suspension</li>
+        <li>Tyres</li>
+        <li>Brakes</li>
+    </ul>
+</section>
+
+<section>
+    <h2>F1 Teams</h2>
+    <table>
+        <tr>
+            <th>Team</th>
+            <th>Country</th>
+            <th>Founded</th>
+            <th>Driver 1</th>
+            <th>Driver 2</th>
+        </tr>
+        <tr>
+            <td>Mercedes</td>
+            <td>Germany</td>
+            <td>1954</td>
+            <td>Lewis Hamilton</td>
+            <td>George Russell</td>
+        </tr>
+        <tr>
+            <td>Ferrari</td>
+            <td>Italy</td>
+            <td>1929</td>
+            <td>Charles Leclerc</td>
+            <td>Carlos Sainz</td>
+        </tr>
+        <tr>
+            <td>Red Bull Racing</td>
+            <td>Austria</td>
+            <td>2005</td>
+            <td>Max Verstappen</td>
+            <td>Sergio Perez</td>
+        </tr>
+    </table>
+</section>
+
+<footer style="text-align:center; margin-top:18px; color:#bcd2ff; font-size:0.95rem;">
+    <p>Created from your PDF layout — updated with provided image and video links.</p>
+</footer>
+
+</body>
+</html>
